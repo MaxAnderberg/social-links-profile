@@ -19,6 +19,5 @@
 
 <style scoped>
     .component {
-        background-color: aqua;
     }
 </style>
