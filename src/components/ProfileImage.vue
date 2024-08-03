@@ -1,7 +1,8 @@
 <template>
-    <div class="component">
-        <h1>{{ title }}</h1>
-        <p>{{ message }}</p>
+    <div class="container">
+        <div class="profile-image" :style="{ backgroundImage: `url(${imageUrl})` }">
+
+        </div>
     </div>
 </template>
 
@@ -11,13 +12,25 @@
         data() {
             return {
                 title: 'Hello Vue',
-                message: 'This is a basic vue component'
+                message: 'This is a basic vue component',
+                imageUrl: require('@/assets/images/avatar-jessica.jpeg')
             }
         },
     }
 </script>
 
 <style scoped>
-    .component {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .profile-image {
+        background-color: azure;
+        border: 1px;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
     }
 </style>
