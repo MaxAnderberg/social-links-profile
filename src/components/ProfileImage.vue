@@ -11,8 +11,6 @@
         name: 'ProfileImage',
         data() {
             return {
-                title: 'Hello Vue',
-                message: 'This is a basic vue component',
                 imageUrl: require('@/assets/images/avatar-jessica.jpeg')
             }
         },
