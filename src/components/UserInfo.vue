@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>{{ Name }}</h1>
+        <h1 class="name">{{ Name }}</h1>
         <p class="location">{{ Location }}</p>
         <p>{{ Description }}</p>
     </div>
@@ -23,8 +23,12 @@
 <style scoped>
     .name {
         font-weight: bold;
+        margin-bottom: 8px;
+        margin-top: 10px;
     }
     .location {
-        color:  var(--color-green)
+        color:  var(--color-green);
+        margin-bottom: 25px;
+        margin-top: 0px;
     }
 </style>
