@@ -1,14 +1,25 @@
 <template>
   <ProfileImage />
+  <UserInfo/>
+  <div class='links-container'>
+    <SocialLink link="https://google.se" name="Google"/>
+    <SocialLink link="https://google.se" name="Google"/>
+    <SocialLink link="https://google.se" name="Google"/>
+    <SocialLink link="https://google.se" name="Google"/>
+  </div>
 </template>
 
 <script>
 import ProfileImage from './components/ProfileImage'
+import SocialLink from './components/SocialLink.vue';
+import UserInfo from './components/UserInfo'
 
 export default {
   name: 'App',
   components: {
-    ProfileImage
+    ProfileImage,
+    UserInfo,
+    SocialLink,
   }
 }
 </script>
@@ -21,5 +32,9 @@ export default {
   text-align: center;
   color: #FFFFFF;
   margin-top: 60px;
+}
+.links-container {
+  display: flex;
+  flex-direction: column;
 }
 </style>
