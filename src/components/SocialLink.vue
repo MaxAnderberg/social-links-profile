@@ -1,5 +1,5 @@
 <template>
-    <a href="link" class='social-link'>{{ name }}</a>
+    <a :href="link" class='social-link'>{{ name }}</a>
 </template>
 
 <script>
