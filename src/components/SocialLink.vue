@@ -29,4 +29,8 @@ export default {
     border-radius: 8px;
     text-decoration: none;
 }
+.social-link:hover {
+    background-color: var(--color-green);
+    color: black;
+}
 </style>
