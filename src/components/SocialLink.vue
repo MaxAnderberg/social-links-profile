@@ -28,9 +28,12 @@ export default {
     border: 1px;
     border-radius: 8px;
     text-decoration: none;
+    transition: background-color 0.25s ease, color 0.25s ease;
+
 }
 .social-link:hover {
     background-color: var(--color-green);
     color: black;
+
 }
 </style>
