@@ -2,7 +2,7 @@
     <div>
         <h1 class="name">{{ Name }}</h1>
         <p class="location">{{ Location }}</p>
-        <p>{{ Description }}</p>
+        <p class="description">{{ Description }}</p>
     </div>
 </template>
 
@@ -25,10 +25,16 @@
         font-weight: bold;
         margin-bottom: 8px;
         margin-top: 10px;
+        font-size: 20px;
     }
     .location {
         color:  var(--color-green);
         margin-bottom: 25px;
+        font-size: 12px;
         margin-top: 0px;
+        font-weight: bold;
+    }
+    .description {
+        font-size: 12px;
     }
 </style>
