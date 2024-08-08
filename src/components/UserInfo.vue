@@ -25,16 +25,16 @@
         font-weight: bold;
         margin-bottom: 8px;
         margin-top: 40px;
-        font-size: 20px;
+        font-size: 24px;
     }
     .location {
         color:  var(--color-green);
         margin-bottom: 25px;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 0px;
         font-weight: bold;
     }
     .description {
-        font-size: 12px;
+        font-size: 14px;
     }
 </style>
