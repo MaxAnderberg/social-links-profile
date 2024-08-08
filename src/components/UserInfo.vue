@@ -11,7 +11,6 @@
         name: 'UserInfo',
         data() {
             return {
-                HelloWorld: 'Hello There World',
                 Name: 'Jessica Randall',
                 Location: 'London, United Kingdom',
                 Description: `"Front-end developer and avid reader"`
