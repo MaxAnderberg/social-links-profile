@@ -23,7 +23,8 @@ export default {
 .social-link {
     color: white;
     font-weight: 600;
-    padding: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: var(--color-grey-700);
     border: 1px;
     border-radius: 8px;
