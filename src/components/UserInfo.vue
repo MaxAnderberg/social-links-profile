@@ -24,7 +24,7 @@
     .name {
         font-weight: bold;
         margin-bottom: 8px;
-        margin-top: 10px;
+        margin-top: 40px;
         font-size: 20px;
     }
     .location {
