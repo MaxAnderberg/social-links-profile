@@ -22,7 +22,7 @@ export default {
 <style scoped>
 .social-link {
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     padding: 8px;
     background-color: var(--color-grey-700);
     border: 1px;
