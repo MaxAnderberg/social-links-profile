@@ -40,7 +40,7 @@ export default {
 .links-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 
 }
 .main {
