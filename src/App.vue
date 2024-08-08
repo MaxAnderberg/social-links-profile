@@ -16,10 +16,10 @@
 import ProfileImage from './components/ProfileImage'
 import SocialLink from './components/SocialLink.vue';
 import UserInfo from './components/UserInfo'
-
+ 
 export default {
   name: 'App',
-  components: {
+  components: {   
     ProfileImage,
     UserInfo,
     SocialLink,
@@ -47,7 +47,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
-  max-width: 40%;
+  min-width: 300px;  
   justify-content: center;
   justify-items: center;
   background-color: var(--color-grey-800);
