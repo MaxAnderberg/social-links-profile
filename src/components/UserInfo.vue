@@ -35,5 +35,6 @@
     }
     .description {
         font-size: 14px;
+        margin-bottom: 24px;
     }
-</style>
+</style> 
