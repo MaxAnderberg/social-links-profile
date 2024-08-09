@@ -31,25 +31,27 @@ export default {
 #app {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #FFFFFF;
+  height: 100vh;
 }
 .links-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
 }
 .main {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
+    @media (max-width: 768px) {
+    min-width: 225px;
+    /* margin-bottom: 60px; */
+  }
   min-width: 300px;  
-  justify-content: center;
-  justify-items: center;
   background-color: var(--color-grey-800);
   padding: 40px;
   border-radius: 8px;
