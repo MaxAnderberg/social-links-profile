@@ -22,13 +22,11 @@
         justify-content: center;
     }
     .profile-image {
-        background-color: azure;
         border: 1px;
         border-radius: 50%;
         height: 100px;
         width: 100px;
         background-size: cover;
         background-position: center;
-        
     }
 </style>
