@@ -1,7 +1,6 @@
 <template>
     <div class="container">
         <div class="profile-image" :style="{ backgroundImage: `url(${imageUrl})` }">
-
         </div>
     </div>
 </template>
