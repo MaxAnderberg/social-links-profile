@@ -23,14 +23,13 @@ export default {
 .social-link {
     color: white;
     font-weight: 600;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 14px 0px;
     background-color: var(--color-grey-700);
     border: 1px;
     border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.25s ease, color 0.25s ease;
-
+    font-size: 14px;
 }
 .social-link:hover {
     background-color: var(--color-green);
