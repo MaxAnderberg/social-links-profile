@@ -11,10 +11,9 @@
         name: 'UserInfo',
         data() {
             return {
-                HelloWorld: 'Hello There World',
                 Name: 'Jessica Randall',
                 Location: 'London, United Kingdom',
-                Description: `"Front-end developer and avid reader"`
+                Description: `"Front-end developer and avid reader."`
             }
         }
     }
@@ -24,17 +23,18 @@
     .name {
         font-weight: bold;
         margin-bottom: 8px;
-        margin-top: 10px;
-        font-size: 20px;
+        margin-top: 30px;
+        font-size: 24px;
     }
     .location {
         color:  var(--color-green);
         margin-bottom: 25px;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 0px;
         font-weight: bold;
     }
     .description {
-        font-size: 12px;
+        font-size: 14px;
+        margin-bottom: 24px;
     }
-</style>
+</style> 

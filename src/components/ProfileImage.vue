@@ -1,7 +1,6 @@
 <template>
     <div class="container">
         <div class="profile-image" :style="{ backgroundImage: `url(${imageUrl})` }">
-
         </div>
     </div>
 </template>
@@ -23,13 +22,11 @@
         justify-content: center;
     }
     .profile-image {
-        background-color: azure;
         border: 1px;
         border-radius: 50%;
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
         background-size: cover;
         background-position: center;
-        
     }
 </style>
